@@ -25,6 +25,34 @@
     <script src="./J.S/jquery.js"></script>
     <script>
         $(document).ready(function () {
+
+            $("#apa").mouseenter(function(){
+                $(this).fadeOut(1000)
+                $(this).fadeIn(3000)
+            })
+
+            $("#Img1").mouseenter(function(){
+                $(this).fadeOut(1000)
+                $(this).fadeIn(3000)
+            })
+
+            $("#Img2").mouseenter(function(){
+                $(this).fadeOut(1000)
+                $(this).fadeIn(3000)
+            })
+
+            $("#img-j").mouseenter(function(){
+                $(this).stop(1).animate({
+                    width: "200px"
+                },500)
+            })
+            $("#img-j").mouseleave(function(){
+                $(this).stop(1).animate({
+                    width: "170px"
+                },1000)
+            })
+           
+
         })
     </script>
 </head>
@@ -53,10 +81,10 @@
     <main>
         <article>
             <section class="container">
-                <div class="video-container">
+                <!-- <div class="video-container">
 
                     <video class="video" src="Motorcycle Cinematic Video (1).mp4" autoplay loop muted></video>
-                </div>
+                </div> -->
 
                 <div class="contenido">
                     <p class="pl">gg ipsum dolor sit, amet consectetur adipisicing elit. Nulla molestias sed
@@ -68,11 +96,11 @@
                         quidem?</p>
                 </div>
 
-                <h1 class="xdxd">
+                <h1 class="xdxd" id="apa">
                     Sobre nosotros
                 </h1>
                 <div class="gg">
-                    <p class="p"> <strong>¡Bienvenido a MotoEx!
+                    <p class="p" id="aparecer"> <strong>¡Bienvenido a MotoEx!
 
                             Somos tu destino confiable para motocicletas usadas de calidad. Con una amplia selección
                             y
@@ -113,7 +141,7 @@
     <!--Boton-->
     <center>
         <div class="boton-modal">
-            <label for="btn-modal">
+            <label id="Btn-c" for="btn-modal">
                 Mas Info
             </label>
         </div>
@@ -143,7 +171,7 @@
 
     <div class="boxx">
         <section class="box">
-            <img src="./img/IMG_20240317_163410.jpg" width="180" alt="" class="box-img">
+            <img id="img-j" src="./img/IMG_20240317_163410.jpg" width="180" alt="" class="box-img">
             <h1>Jerson Espitia</h1>
             <h2 class="h2">Tecnologo Analisis y desarollo de software</h2>
             <p class="p">amable y extrovertida, siempre dispuesta a ayudar a los demás y a hacer nuevas amistades.
