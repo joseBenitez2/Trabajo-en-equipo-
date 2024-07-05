@@ -26,32 +26,32 @@
     <script>
         $(document).ready(function () {
 
-            $("#apa").mouseenter(function(){
+            $("#apa").mouseenter(function () {
                 $(this).fadeOut(1000)
                 $(this).fadeIn(3000)
             })
 
-            $("#Img1").mouseenter(function(){
+            $("#Img1").mouseenter(function () {
                 $(this).fadeOut(1000)
                 $(this).fadeIn(3000)
             })
 
-            $("#Img2").mouseenter(function(){
+            $("#Img2").mouseenter(function () {
                 $(this).fadeOut(1000)
                 $(this).fadeIn(3000)
             })
 
-            $("#img-j").mouseenter(function(){
+            $("#img-j").mouseenter(function () {
                 $(this).stop(1).animate({
                     width: "200px"
-                },500)
+                }, 500)
             })
-            $("#img-j").mouseleave(function(){
+            $("#img-j").mouseleave(function () {
                 $(this).stop(1).animate({
                     width: "170px"
-                },1000)
+                }, 1000)
             })
-           
+
 
         })
     </script>
@@ -110,20 +110,37 @@
                             aventura sobre dos ruedas.</strong> </p>
                 </div>
 
-                <div class="fondoimg">
-                    <div class="caja">
+                <div class="container-1">
+                    <div class="hero">
+                        <h5 class="texto">TODO PARA TU MOTO</h5>
+                    </div>
+                    <div class="content-1">
+                        <img src="./img/Opera Captura de pantalla_2024-05-09_113005_127.0.0.1.png" alt="" id="Img1">
+                        <img src="./img/Opera Captura de pantalla_2024-05-09_113328_127.0.0.1.png" alt="" id="Img2">
 
+                    </div>
+                    <center>
+                    <div class="boton-modal">
+                        <label id="Btn-c" for="btn-modal">
+                            Mas Info
+                        </label>
+                    </div>
+                </center>
+                </div>
+
+                <!--    <div class="caja">
                         <div class="contenedorimg" id="Despliegue">
                             <img class="img1" id="Img1"
                                 src="./img/Opera Captura de pantalla_2024-05-09_113005_127.0.0.1.png" alt="">
                             <img class="img2" id="Img2"
                                 src="./img/Opera Captura de pantalla_2024-05-09_113328_127.0.0.1.png" alt="">
-                        </div>
+                            </div>
+
                         <div class="hero">
                             <h5 class="texto">TODO PARA TU MOTO</h5>
                         </div>
-                    </div>
-                </div>
+                    </div>-->
+
 
 
             </section>
@@ -131,19 +148,11 @@
     </main>
 
 
-    <!--Boton-->
-    <center>
-        <div class="boton-modal">
-            <label id="Btn-c" for="btn-modal">
-                Mas Info
-            </label>
-        </div>
-    </center>
-    <!--Fin de Boton-->
+
 
     <!--Ventana Modal-->
     <input type="checkbox" id="btn-modal">
-    <div class="container-modal" >
+    <div class="container-modal">
         <div class="content-modal">
             <h2 class="h2">¡Gracias por tu interés! </h2>
             <p class="p">¿Quieres estar al tanto de nuestras últimas novedades y ofertas exclusivas? Síguenos en

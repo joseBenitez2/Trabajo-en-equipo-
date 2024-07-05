@@ -416,9 +416,21 @@ margin-left: 85%;
 }
 /*Parte de abajo*/
 
-
-.contenerdorimg
-{
+.container-1{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+.container-1 .content-1{
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+}
+.container-1 .content-1 img{
+    border-radius: 100px;
+}
+.contenerdorimg{
+    margin-top: -90%;
     background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: row;
@@ -428,14 +440,13 @@ margin-left: 85%;
 }
 .img1{
 
-    margin-top: 33%;
+
    border-radius: 100px;
    width: 40%;
    transition: all 0.5s;
    height: 400px;
 }
 .img2{
-    margin-top: 33%;
    border-radius: 100px;
    margin-left: 15%;
    width: 40%;
@@ -451,7 +462,7 @@ transform: scale(1.09);
 }
 
 h5{
-    margin-top: -1140px;
+    margin-top: 3%;
     text-align: center;
     font-size: 30px;
     font-family: "Poetsen One", sans-serif;
@@ -460,7 +471,6 @@ h5{
 
 /* FIN Parte de abajo*/
 .hero {
-
 	display: flex;
 	align-items: center;
 }
@@ -591,10 +601,12 @@ h5{
 
 /*:::Boton-Modal:::*/
 .boton-modal{
+    
     padding: 40px;
     background-image: url(./img/nex.jpg);
 }
 .boton-modal label{
+    
     padding: 10px 15px;
     background-color: #5488a3;
     color: #fff;
@@ -792,6 +804,9 @@ h5{
     margin: 0%;
     padding: 0%;
 }
+.tarjetas{
+    margin-top: -10%;
+}
 
 .caja{
     background-color: #fff;
@@ -799,12 +814,15 @@ h5{
     margin: 0%;
     padding: 0%;
 }
+.contenedor-2{
+    margin-top: 10%;
+}
 /* contenedor tarjetas script */
-/* #cont-img
-{
-            border: 10px solid white;
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            left: -95%;
+/* #cont-img{
+
+ border: 10px solid white;
+ display: flex;
+ flex-direction: column;
+position: absolute;
+ left: -95%;
 } */
