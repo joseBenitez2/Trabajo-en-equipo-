@@ -247,6 +247,7 @@ margin: -25px;
 /*footer*/
 
 footer{
+    margin-top: 100%;
     background-color: #111;
 }
 .footerContainer{
